@@ -1,0 +1,34 @@
+nav {
+    position: relative;
+    z-index: 3;
+  background: #0077ff;
+  padding: .75rem;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      a, .nav-btn {
+        color: white;
+        text-decoration: none;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+
+      .nav-btn {
+        padding: 0.3rem;
+        border-radius: 5px;
+        background: #005fcc;
+      }
+    }
+  }
+}
+

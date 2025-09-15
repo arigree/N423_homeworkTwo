@@ -1,0 +1,14 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; 
+  background-image: url(../images/clouds.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(3px);
+  z-index: 0;
+}
